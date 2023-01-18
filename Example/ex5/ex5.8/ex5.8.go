@@ -18,5 +18,5 @@ func main() {
 		fmt.Println(err)
 		stdin.ReadString('\n')
 	}
-	_, err = fmt.Scanln(&a,&b)
+	_, err = fmt.Scanln(&a, &b)
 }
