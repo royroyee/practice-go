@@ -1,7 +1,7 @@
 # Practice-Go
 
 ### Practice golang
-- basic (examle , Practice)
+- Basic (Examle , Practice)
 - Data Structure
 - Algorithm
 
