@@ -21,7 +21,7 @@ func (sa secretAgent) speak() {
 }
 
 type human interface {
-	speak() // person과 secretagent 는 모두 speack를 묵시적으로 구현하고 있다
+	speak() // person과 secretagent 는 모두 speak를 묵시적으로 구현하고 있다
 }
 
 func saySomething(h human) {
