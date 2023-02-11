@@ -4,6 +4,9 @@
 - Basic (Examle , Practice)
 - Data Structure
 - Algorithm
+- Goroutine
+- Channel
+- MongoDB
 
 ---
 ### Goroutine
@@ -67,7 +70,7 @@ func main() {
 
   go PrintAlphabet()
   go PrintNumbers()
-  time.Sleep(3 * time.Second) // 왜 있을까?
+  time.Sleep(3 * time.Second) // 왜 있을까??
 }
 ```
 
