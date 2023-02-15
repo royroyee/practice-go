@@ -1,6 +1,6 @@
-## MongoDB
+# MongoDB
 
-### Basic
+## Basic
 
 ### `defer session.Close()`
 The line defer session.Close() is used to ensure that the session is properly closed when the program exits. The defer keyword in Go is used to defer the execution of a function until the surrounding function returns. In this case, session.Close() is being deferred until the end of the main function. This means that the session will be closed automatically when the main function returns, regardless of whether it returns normally or due to a panic.
